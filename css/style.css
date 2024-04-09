@@ -1,0 +1,14 @@
+.navbar-brand{
+    color:rgb(247, 247, 234);
+    font-weight: bold;
+    font-size:2em;
+}
+nav{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(198,189,83,1) 100%, rgba(253,187,45,1) 100%);
+}
+.navbar-nav a{
+    font-size: 1.2em;
+}
+.icono{
+    width: 5vw;
+}
