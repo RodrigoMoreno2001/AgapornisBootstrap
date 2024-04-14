@@ -52,4 +52,13 @@ footer{
 
 .fontItim {
     font-family: "Itim";
-  }
+}
+h2{
+    margin:30px 0;
+}
+hr{
+    margin:30px 10px 15px 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 3em;
+}
