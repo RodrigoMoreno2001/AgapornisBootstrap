@@ -1,3 +1,6 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .navbar-brand{
     color:rgb(247, 247, 234);
     font-weight: bold;
@@ -11,17 +14,24 @@ nav{
 .navbar-nav a{
     font-size: 1.2em;
 }
+.carousel-item img{
+    max-height: 500px;
+    border-radius: 0 0 1em 1em;
+}
 .icono{
-    width: 5vw;
+    min-width: 1.5em;
+    max-width: 3.5em;
 }
 body{
     max-width: 100vw;
     min-height: 100vh;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(198,189,83,1) 100%, rgba(253,187,45,1) 100%);
     overflow-x: hidden;
+    transition:all 0.3s;
 }
 main{
-    background: rgba(255, 255, 255, 0.767);
+    min-height: 85vh;
+    background: rgba(255, 255, 255, 0.5);
 }
 footer{
     background:rgb(37, 37, 37);
@@ -29,6 +39,17 @@ footer{
     min-height: 20vh;
 }
 .botonSlider{
-    background-color: rgba(255, 0, 0, 0);
-    border:1px solid rgba(255, 0, 0, 0)
+    background-color: rgba(255, 255, 255, 0);
+    border:1px solid rgba(255, 0, 0, 0);
+    border-radius: 1em;
 }
+
+.imgSlider{
+    object-fit: auto; 
+    object-position: center;
+    max-height: 35vw;
+}
+
+.fontItim {
+    font-family: "Itim";
+  }
