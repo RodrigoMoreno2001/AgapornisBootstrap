@@ -15,7 +15,6 @@ nav{
     font-size: 1.2em;
 }
 .carousel-item img{
-    max-height: 500px;
     border-radius: 0 0 1em 1em;
 }
 .icono{
@@ -27,7 +26,6 @@ body{
     min-height: 100vh;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(198,189,83,1) 100%, rgba(253,187,45,1) 100%);
     overflow-x: hidden;
-    transition:all 0.3s;
 }
 main{
     min-height: 85vh;
@@ -37,6 +35,9 @@ footer{
     background:rgb(37, 37, 37);
     min-width: 100vw;
     min-height: 20vh;
+}
+.radius{
+    border-radius: 30px; 
 }
 .botonSlider{
     background-color: rgba(255, 255, 255, 0);
